@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+}
+.tron-container {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  border: 5px solid rgb(0, 0, 0);
+}
+.Tron0 {
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  height: auto;
+
+}
+.Tron1 {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  height: auto;
+  
+}
+.Tron2 {
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  height: auto;
+
+}
+.Tron2:hover {
+  z-index: 6; 
+  animation: pulse 4s infinite ease-in-out;
+
+
+}
+@keyframes pulse {
+  50% {
+    filter: drop-shadow(0 0 10px #fff) 
+            drop-shadow(0 0 40px #fff)
+            drop-shadow(0 0 80px #0ff) 
+            drop-shadow(0 0 160px #0ff);
+  0% {
+    
+    filter: drop-shadow(0 0 0px #fff)
+            drop-shadow(0 0 0px #fff)
+            drop-shadow(0 0 0px #0ff) 
+            drop-shadow(0 0 0px #0ff);
+  }
+  50% {
+    filter: drop-shadow(0 0 10px #fff) 
+            drop-shadow(0 0 40px #fff)
+            drop-shadow(0 0 80px #0ff) 
+            drop-shadow(0 0 160px #0ff);
+  }
+  100% {
+    filter: drop-shadow(0 0 5px #fff) 
+            drop-shadow(0 0 40px #fff)
+            drop-shadow(0 0 40px #0ff) 
+            drop-shadow(0 0 160px #0ff);
+  }
+
+  }
+
+  }
+
+
+
+.Tron3 {
+  position: absolute;
+    z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2); 
+  width: 100%;
+  height: auto;
+  animation: rock 8s infinite ease-in-out;
+  display: block;
+  
+}
+@keyframes rock {
+  0% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(0deg);
+
+  }
+  30% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(-10deg);
+  }
+  60% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(0deg);
+  }
+}
+
+
+.Tron4 {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 600px;
+  height: auto;
+  animation: rock2 8s infinite ease-in-out;
+}
+
+@keyframes rock2 {
+  0% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(0deg);
+
+  }
+  30% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(10deg);
+  }
+  60% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(-10deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(0deg);
+  }
+}
+.Tron5 {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  height: auto;
+
+}
+.Tron6 {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  height: auto;
+
+}
